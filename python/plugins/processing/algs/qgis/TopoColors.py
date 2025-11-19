@@ -83,7 +83,6 @@ class TopoColor(QgisAlgorithm):
                 self.MIN_COLORS,
                 self.tr("Minimum number of colors"),
                 minValue=1,
-                maxValue=1000,
                 defaultValue=4,
             )
         )
